@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NotiNotes</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; text-align: center; }
+    input { width: 80%; padding: 10px; margin-bottom: 15px; font-size: 16px; }
+    button { padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; }
+    ul { list-style: none; padding: 0; margin-top: 20px; }
+    li { background: #f0f0f0; margin-bottom: 10px; padding: 10px; display: flex; justify-content: space-between; align-items: center; border-radius: 5px; }
+    .delete { background: #dc3545; padding: 5px 10px; border-radius: 3px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h2>פתקים להתראות</h2>
+  <input type="text" id="noteInput" placeholder="הכנס פתק חדש...">
+  <br>
+  <button id="addBtn">הוסף פתק וצור התראה</button>
+  <ul id="notesList"></ul>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
